@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1621923123584,
+  "lastUpdate": 1621923540159,
   "repoUrl": "https://github.com/messense/jieba-rs",
   "entries": {
     "jieba_benchmark": [
@@ -35,6 +35,42 @@ window.BENCHMARK_DATA = {
             "name": "jieba/tag",
             "value": 12672,
             "range": "± 585",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "committer": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "distinct": false,
+          "id": "4fd9e8c803bd4f64f6117972dd690da763a3bae7",
+          "message": "Automate running benchmarks",
+          "timestamp": "2021-05-25T13:47:25+08:00",
+          "tree_id": "e1a0b1217876e373cc28206b8e5268edd2a6211a",
+          "url": "https://github.com/messense/jieba-rs/commit/4fd9e8c803bd4f64f6117972dd690da763a3bae7"
+        },
+        "date": 1621923539355,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "jieba/new",
+            "value": 179725220,
+            "range": "± 8391190",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "jieba/tag",
+            "value": 10298,
+            "range": "± 419",
             "unit": "ns/iter"
           }
         ]
