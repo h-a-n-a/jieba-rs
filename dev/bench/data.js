@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1621923540159,
+  "lastUpdate": 1622302200987,
   "repoUrl": "https://github.com/messense/jieba-rs",
   "entries": {
     "jieba_benchmark": [
@@ -71,6 +71,54 @@ window.BENCHMARK_DATA = {
             "name": "jieba/tag",
             "value": 10298,
             "range": "± 419",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "committer": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "distinct": true,
+          "id": "c7416ab4ac4c7674af0e913752cf3a6f21cb5b7f",
+          "message": "Rename benchmark groups",
+          "timestamp": "2021-05-29T23:23:28+08:00",
+          "tree_id": "203d3d17009fc0ddda68c4c8c66d458c5ccd837a",
+          "url": "https://github.com/messense/jieba-rs/commit/c7416ab4ac4c7674af0e913752cf3a6f21cb5b7f"
+        },
+        "date": 1622302200270,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "jieba/new",
+            "value": 227745206,
+            "range": "± 9478834",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_all",
+            "value": 6362,
+            "range": "± 453",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_for_search",
+            "value": 13982,
+            "range": "± 833",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "jieba/tag",
+            "value": 13086,
+            "range": "± 1663",
             "unit": "ns/iter"
           }
         ]
