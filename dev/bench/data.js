@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622302200987,
+  "lastUpdate": 1625290048689,
   "repoUrl": "https://github.com/messense/jieba-rs",
   "entries": {
     "jieba_benchmark": [
@@ -119,6 +119,54 @@ window.BENCHMARK_DATA = {
             "name": "jieba/tag",
             "value": 13086,
             "range": "± 1663",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "committer": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "distinct": true,
+          "id": "0c93e09c3386c8b9ac4aa3556579a5c1afd2a0fa",
+          "message": "Update phf crate to 0.9",
+          "timestamp": "2021-07-03T13:21:02+08:00",
+          "tree_id": "22942c26aaa3c19f47f89ddfde234966e90fc2f9",
+          "url": "https://github.com/messense/jieba-rs/commit/0c93e09c3386c8b9ac4aa3556579a5c1afd2a0fa"
+        },
+        "date": 1625290047865,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "jieba/new",
+            "value": 220038448,
+            "range": "± 10337938",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_all",
+            "value": 6130,
+            "range": "± 360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_for_search",
+            "value": 13370,
+            "range": "± 829",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "jieba/tag",
+            "value": 12445,
+            "range": "± 776",
             "unit": "ns/iter"
           }
         ]
