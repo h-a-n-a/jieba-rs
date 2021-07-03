@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1625290569133,
+  "lastUpdate": 1625290578386,
   "repoUrl": "https://github.com/messense/jieba-rs",
   "entries": {
     "jieba_benchmark": [
@@ -251,6 +251,54 @@ window.BENCHMARK_DATA = {
             "name": "keywords/textrank",
             "value": 28050,
             "range": "± 409",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "committer": {
+            "email": "messense@icloud.com",
+            "name": "messense",
+            "username": "messense"
+          },
+          "distinct": true,
+          "id": "f101194eeda8a3b6224f7b6e206f3c6a828acc6c",
+          "message": "Bump version to 0.6.5",
+          "timestamp": "2021-07-03T13:27:41+08:00",
+          "tree_id": "26cbed5ebb39398a843b6591288c79a424ba4c21",
+          "url": "https://github.com/messense/jieba-rs/commit/f101194eeda8a3b6224f7b6e206f3c6a828acc6c"
+        },
+        "date": 1625290577600,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "jieba/new",
+            "value": 184823211,
+            "range": "± 12408450",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_all",
+            "value": 5017,
+            "range": "± 331",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "cut/cut_for_search",
+            "value": 10538,
+            "range": "± 537",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "jieba/tag",
+            "value": 10317,
+            "range": "± 605",
             "unit": "ns/iter"
           }
         ]
